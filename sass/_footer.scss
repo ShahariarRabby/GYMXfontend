@@ -1,0 +1,54 @@
+footer {
+
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../img/gym_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+     background-color: gray;
+
+    *{
+                    font-family: Montserrat, sans-serif;
+              
+    }
+    .container {
+      padding-top: 5%;
+        padding-bottom: 20%;
+        h3 {
+            text-align: center;
+                        font-weight: 600;
+
+        }
+        .contact {
+            border-bottom: 4px solid $linkcolor;
+        }
+        .pad {
+            padding-left: 0 50px;
+            margin: 10px;
+             border-right: 4px solid $linkcolor;
+             border-left: 4px solid $linkcolor;
+           
+        }
+        p {
+            padding-top: 10px;
+        }
+        h4 {
+            font-family: Montserrat, sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+    .cent {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        bottom: 0;
+        p {
+            color: lighten($textcolorblack, 40%);
+            font-size: 15px;
+        }
+    }
+}

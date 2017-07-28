@@ -1,0 +1,71 @@
+.howworks {
+         min-height: 100vh;         
+    .row {
+        background-color: #f5f5f5 !important;
+
+        .picbox {
+            background-color: $linkcolor;
+            padding: 90px 50px;
+            background-position: ab;
+            &:after {
+                background: $linkcolor none repeat scroll 0 0;
+                content: "";
+                display: block;
+                height: 40px;
+                position: absolute;
+                right: -16px;
+                top: 46%;
+                transform: rotate(220deg);
+                width: 40px;
+            }
+            .pic{
+                width: 100%;
+            }
+            .rt-fitness {
+                font-family: Roboto, sans-serif;
+                font-size: 58px;
+                font-weight: 300;
+                position: absolute;
+                text-align: right;
+                right: 8%;
+                top: 15%;
+                span {
+                    font-family: Roboto, sans-serif;
+                    font-size: 68px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .textbox {
+            box-sizing: border-box;
+            color: rgb(102, 102, 102);
+            font-family: "Open Sans", sans-serif;
+            font-size: 15px;
+            font-weight: normal;
+            padding-bottom: 40px;
+            padding-left: 30px;
+            padding-right: 15px;
+            padding-top: 45px;
+            p {
+                padding-left: 25px;
+                margin-right: 150px;
+                color: $textcolorblack;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            h3 a {
+                text-decoration: none;
+                color: $textcolorblack;
+                display: inline;
+                font-family: 'Roboto', sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+                transition: color .5s;
+                &:hover {
+                    color: $linkcolor;
+                }
+            }
+        }
+    }
+}

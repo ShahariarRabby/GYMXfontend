@@ -1,0 +1,37 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            text-decoration: none;
+            color: #FB5B21;
+        }
+    }
+}
+
+@import "import";
+i {
+    color: $linkcolor;
+    padding: 5px;
+}
+
+.none {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

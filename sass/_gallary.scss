@@ -1,0 +1,39 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    ul {
+        list-style: none;
+        width: auto;
+        li {
+            width: 25%;
+            display: block;
+            float: left;
+            overflow: hidden;
+            background: black;
+            img {
+                background-color: black;
+                opacity: .5;
+                width: 100%;
+                height: auto;
+                -webkit-transform: scale(1.15);
+                transform: scale(1.45);
+                transition: opacity .4s, transform .3s;
+                &:hover {
+                    opacity: 1;
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+    }
+
+    h5{
+        text-align: center;
+    font-size: 200%;
+        color: $textcolorblack;
+        font-weight: 600;
+        padding-bottom: 5%;
+        padding-top: -2%;
+    }
+}

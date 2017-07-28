@@ -1,0 +1,29 @@
+@mixin btn($color: none) {
+    border: 1px solid $linkcolor;
+    padding: .5% 1.5%;
+    background: $color;
+    border-radius: 50px;
+    transition: color .5s, background .5s;
+}
+
+@mixin btns(){
+    .btns {
+            margin-left: 0.5%;
+            @include btn($linkcolor);
+            color: white;
+            &:hover {
+                background: lighten($linkcolor, 5%);
+                text-decoration: none;
+            }
+        }
+        .btnl {
+            margin-left: 0.5%;
+            @include btn();
+            color: $linkcolor;
+            &:hover {
+                background: $linkcolor;
+                color: white;
+                text-decoration: none;
+            }
+        }
+}

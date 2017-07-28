@@ -1,0 +1,51 @@
+.sndpage {
+    top: -15vh;
+    color: $linkcolor;
+    .card-deck {
+        .card {
+            border: 0;
+            .card-block {
+                padding: 0;
+            }
+            .cardlink {
+                background-color: $cardbackground;
+                
+                img {
+                     width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    opacity: .6;
+                    transition: opacity .4s
+                }
+                h4{
+                    transition: background-color .5s;
+                     padding: 15px;
+                    font-family: Montserrat,sans-serif;
+                        font-weight: 400;
+                }
+                a{
+                    text-decoration: none;
+                      color: white;
+                }
+                &:hover {
+                     
+                    h4 {
+                        color: white;
+                        background-color: $linkcolor;
+                    }
+                    img {
+                       opacity: 1;
+                    }
+                }
+            }
+            
+            p{
+              color:   $textcolorblack;
+                font-size: 16px;
+                padding: 20px 25px;
+                border: 0;
+                border-bottom: 4px solid $linkcolor;
+            }   
+        }
+    }
+}
